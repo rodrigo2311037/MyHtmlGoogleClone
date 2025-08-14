@@ -37,9 +37,11 @@ Explorar el Código:
 Puedes abrir los archivos index.html y styles.css en tu editor de código para ver cómo se implementaron la estructura y los estilos. El JavaScript se encuentra en la parte inferior del archivo index.html para una fácil visualización.
 
 📄 Estructura del Proyecto
+```
 /
 └── index.html
 └── README.md
+```
 El proyecto consta de un solo archivo HTML que contiene todo el código CSS y JavaScript necesario, facilitando su comprensión y ejecución.
 
 👨‍💻 Contribuciones
