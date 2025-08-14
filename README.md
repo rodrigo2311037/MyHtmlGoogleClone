@@ -30,9 +30,10 @@ Clonar el Repositorio:
 
 ```
 git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+```
 Abrir el Archivo:
 Simplemente abre el archivo index.html en tu navegador web preferido. No se necesita un servidor local para ejecutar este proyecto.
-```
+
 Explorar el Código:
 Puedes abrir los archivos index.html y styles.css en tu editor de código para ver cómo se implementaron la estructura y los estilos. El JavaScript se encuentra en la parte inferior del archivo index.html para una fácil visualización.
 
