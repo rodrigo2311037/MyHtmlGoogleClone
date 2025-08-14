@@ -18,12 +18,9 @@ Interfaz de Usuario Sencilla: Réplica fiel de la página de inicio de Google.
 Barra de Búsqueda Interactiva: El campo de texto permite al usuario ingresar su consulta.
 
 Funcionalidad de Búsqueda:
-
 Al hacer clic en el botón "Buscar con Google", el usuario es redirigido a la página de resultados.
-
 Al presionar la tecla Enter en el campo de texto, también se inicia la búsqueda.
 
-Código Limpio y Comentado: El código está diseñado para ser fácil de entender, ideal para quienes están aprendiendo a desarrollar con estas tecnologías.
 
 🛠️ Cómo Usarlo
 Clonar el Repositorio:
@@ -34,8 +31,7 @@ git clone https://github.com/tu-usuario/nombre-del-repositorio.git
 Abrir el Archivo:
 Simplemente abre el archivo index.html en tu navegador web preferido. No se necesita un servidor local para ejecutar este proyecto.
 
-Explorar el Código:
-Puedes abrir los archivos index.html y styles.css en tu editor de código para ver cómo se implementaron la estructura y los estilos. El JavaScript se encuentra en la parte inferior del archivo index.html para una fácil visualización.
+
 
 📄 Estructura del Proyecto
 ```
@@ -45,8 +41,6 @@ Puedes abrir los archivos index.html y styles.css en tu editor de código para v
 ```
 El proyecto consta de un solo archivo HTML que contiene todo el código CSS y JavaScript necesario, facilitando su comprensión y ejecución.
 
-👨‍💻 Contribuciones
-Siéntete libre de forkear este repositorio y mejorar el código. ¡Todas las sugerencias y pull requests son bienvenidas!
 
-Licencia
-Este proyecto está bajo la Licencia MIT.
+
+
