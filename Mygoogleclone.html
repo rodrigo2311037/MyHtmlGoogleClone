@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-grow: 1;
+            justify-content: center;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 24px;
+            padding: 8px 15px;
+            width: 400px;
+            margin-bottom: 20px;
+        }
+        .search-input {
+            flex-grow: 1;
+            border: none;
+            outline: none;
+            padding: 8px;
+            font-size: 16px;
+        }
+        .search-icon {
+            margin-right: 10px;
+            color: #999;
+        }
+        .voice-icon {
+            margin-left: 10px;
+            color: #999;
+        }
+        .buttons {
+            display: flex;
+        }
+        .button {
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #3c4043;
+            font-size: 14px;
+            margin: 0 8px;
+            padding: 10px 16px;
+            cursor: pointer;
+        }
+        .button:hover {
+            border-color: #dadce0;
+        }
+        .footer {
+            background-color: #f2f2f2;
+            color: #70757a;
+            padding: 15px;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            font-size: 14px;
+            border-top: 1px solid #e4e4e4;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png" alt="Google" height="92">
+        </div>
+        <div class="search-bar">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-input" class="search-input" placeholder="Buscar en Google o escribir una URL">
+            <span class="voice-icon">🎤</span>
+        </div>
+        <div class="buttons">
+            <button id="google-search-button" class="button">Buscar con Google</button>
+            <button class="button">Me siento con suerte</button>
+        </div>
+    </div>
+    <div class="footer">
+        México
+    </div>
+
+    <script>
+        // 1. Obtenemos los elementos del DOM (Document Object Model)
+        const searchInput = document.getElementById('search-input');
+        const searchButton = document.getElementById('google-search-button');
+
+        // 2. Definimos la función que realizará la búsqueda
+        function performGoogleSearch() {
+            // Obtenemos el valor que el usuario escribió en la barra
+            const query = searchInput.value;
+
+            // Si hay algo escrito, procedemos
+            if (query) {
+                // Construimos la URL de Google Search
+                const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+
+                // Redireccionamos al usuario a esa URL
+                window.location.href = googleSearchUrl;
+            }
+        }
+
+        // 3. Agregamos un "oyente" de eventos al botón de búsqueda
+        searchButton.addEventListener('click', performGoogleSearch);
+
+        // Opcional: También permitimos la búsqueda al presionar "Enter"
+        searchInput.addEventListener('keypress', function(event) {
+            // El código 13 corresponde a la tecla "Enter"
+            if (event.key === 'Enter') {
+                performGoogleSearch();
+            }
+        });
+    </script>
+</body>
+</html>
