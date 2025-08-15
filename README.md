@@ -23,11 +23,7 @@ Al presionar la tecla Enter en el campo de texto, también se inicia la búsqued
 
 
 🛠️ Cómo Usarlo
-Clonar el Repositorio:
 
-```
-git clone https://github.com/tu-usuario/nombre-del-repositorio.git
-```
 Abrir el Archivo:
 Simplemente abre el archivo index.html en tu navegador web preferido. No se necesita un servidor local para ejecutar este proyecto.
 
