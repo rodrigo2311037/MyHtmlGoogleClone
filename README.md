@@ -1,6 +1,5 @@
 # MyHtmlGoogleClone
-HTML - A google clone 
-Clon de Google
+
 Este es un clon simplificado de la página de inicio del buscador de Google, creado con fines educativos para demostrar el uso combinado de HTML, CSS y JavaScript. El proyecto replica la interfaz visual de la página y su funcionalidad básica de búsqueda.
 
 🚀 Tecnologías Utilizadas
@@ -20,6 +19,7 @@ Barra de Búsqueda Interactiva: El campo de texto permite al usuario ingresar su
 Funcionalidad de Búsqueda:
 Al hacer clic en el botón "Buscar con Google", el usuario es redirigido a la página de resultados.
 Al presionar la tecla Enter en el campo de texto, también se inicia la búsqueda.
+Al hacer clic en el botón "Me siento con suerte", el usuario es redirigido a la página aleatoria seleccionada por google.
 
 
 🛠️ Cómo Usarlo
@@ -34,6 +34,7 @@ Simplemente abre el archivo index.html en tu navegador web preferido. No se nece
 /
 └── index.html
 └── README.md
+└── logo-google.png
 ```
 El proyecto consta de un solo archivo HTML que contiene todo el código CSS y JavaScript necesario, facilitando su comprensión y ejecución.
 
